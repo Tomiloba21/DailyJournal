@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+
+    height: 100%;
+
+}
+/* .brand-title{font-size:1.5rem;margin:.5rem} */
+.navbar-links ul{margin:0;padding:0;display:flex}
+.toggle-button{position:absolute;top:.75rem;right:1rem;display:none;flex-direction:column;justify-content:space-between;width:30px;height:21px}
+.toggle-button .bar{height:3px;width:100%;background-color:#28292d;border-radius:10px}
+
+header{
+    background-color:rgb(184, 147, 159);
+    color:rgb(54, 46, 46);
+    display:flex;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    padding: 40px;
+    width: 100%;
+    
+    /* padding: 20px; */
+}
+header h1{
+    font-size: large;
+    font-weight: 200;
+    font: 2em sans-serif;
+    /* padding: 40px; */
+    padding: 45px 10%;
+    /* padding-left: 200px ;
+    padding-top: 30px; */
+   
+}
+
+
+
+
+header a {
+    /* padding-bottom: 30px; */
+    text-decoration: none;
+    color:rgb(54, 46, 46) ;
+    font-size: medium;
+}
+.toggle_Button{
+    padding: 45px  10%  0px 0px;
+}
+.toggle_Button ul li  {
+    padding: 10px;
+    display: inline-block;
+}
+header div  {
+    display: flex;
+    justify-content:space-evenly;
+    /* padding-bottom: 30px;*/
+    padding-top: 40px; 
+    
+
+}
+header div li{
+    padding-right: 100px;
+   
+}
+/* header span li{
+    padding-left: 20px;
+} */
+
+ li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.home{
+    padding:0px 15%;
+}
+.days{
+    padding:50px 240px 0px 240px;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.length{
+    margin-left: 20px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: medium;
+    font-weight: 100;
+}
+#showMoreBtn{
+    text-decoration: none;
+    color: blue;
+}
+.foot{
+    width: 100%;
+    margin-top: 10.1%;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(184, 147, 159);
+    padding: 20px 30px;
+    
+    /* margin-top: 100px;  */
+    /* margin-bottom: 500px;*/
+}
+.social-links img{height:13px;margin:20px;cursor:pointer}
+.social-links{
+    margin:5%  10%  2% 0%;
+    ;
+
+}
+.copy{
+    margin-left: 30px ;
+   padding-bottom: 7.7%;
+}
+.third-element  {
+    padding-left: 10% ;
+
+}
+.third-element ul li {
+     display: grid;
+    justify-content: space-between;
+    margin-right: 100px; 
+    padding: 9.4%;
+    
+}
+.third-element ul li a {
+    text-decoration: none;
+    color:rgb(54, 46, 46) ;
+}
+.toggle_Button li a {
+    padding: 30px;
+    /* display: inline-block; */
+}
+
+
+@media (max-width:450px) {*{margin:0;padding:0;
+    box-sizing:border-box }
+.toggle-button{display:flex;margin-left:60px}
+body{width: 414px;}
+.navbar-links{display:none;width:100%}
+.nav-bar{flex-direction:column;align-items:flex-start}
+.navbar-links ul{width:100%;flex-direction:column}
+.navbar-links li{text-align:center}
+.navbar-links li a{padding:.5rem 1rem}
+.navbar-links.active{display:flex;margin-right:50px}
+.first{position:relative;width:100%;height:380px;margin:0;padding:10px;background-color:#fff;border-radius:8px;overflow:hidden}
+.cover-first{line-height:2;font-size:16px;font-weight:200;position:absolute;inset:2px;border-radius:8px;padding:10px 40px 20px;background-color:#fff}
+.home{
+    width: 100% !important;
+    padding: 10px 50px 20px 40px;
+}
+.home p{
+    
+    margin: 0px;
+    padding: 10px 30px;
+}
+body{
+    width: 100% !important;
+}
+header{
+    width: 100%;
+}
+.foot{
+    /* margin-top: 4.9%; */
+    /* margin-left: 300PX; */
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    background-color:rgb(184, 147, 159);
+    padding: 20px 30px;
+    /* .navbar-links.active{display:flex;margin-right:50px}tion:relative;inset:2px;border} */
+}
+
+.toggle_Button ul{
+    width: 100%;
+    flex-direction:column}
+.toggle_Button li{text-align:center ;margin: 10px;}
+/* .toggle-button li a{padding:.5rem 1rem} */
+.toggle_Button.active {
+    display:flex;
+    
+    margin-left:50%
+}
+
+
+.toggle_Button{display:none;width:100%}
+.social-links img{
+    height:13px;
+    margin:20px;
+    cursor:pointer}
+.social-links{
+    margin-right: 0px;
+    margin-top:30px;
+    text-align:center;
+    margin-bottom:20px
+}
+.third-element{
+    display: grid;
+    justify-content: space-between;
+    margin-right: 50px; 
+    padding: 10px;
+    
+
+}
+.third-element ul li {
+    display: grid;
+   justify-content: space-between;
+   margin-right: 50px; 
+   padding: 10px;
+   
+}
+.third-element ul li a {
+   text-decoration: none;
+   color:rgb(54, 46, 46) ;
+}
+.copy{
+    margin-left: 2px ;
+   padding-bottom: 3.5%;
+}.brand-title{
+    padding: 20px;
+}
+
+}
+
+
+    
