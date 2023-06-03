@@ -172,6 +172,9 @@ header{
     padding: 20px 30px;
     /* .navbar-links.active{display:flex;margin-right:50px}tion:relative;inset:2px;border} */
 }
+    
+    
+   ///This is where changes were made .
 
 .toggle_Button ul{
     width: 100%;
@@ -183,19 +186,20 @@ header{
     
     margin-left:25%
 }
- .toggle_Button.active ul li{
+
+.toggle_Button.active ul li{
     width: 100%;
-}
     
+   
+}
+
+
 .toggle_Button{
     display:none;
    
     padding-left: 70px;
     padding-right: 3%;
 }
-
-
-
 .social-links img{
     height:13px;
     margin:20px;
