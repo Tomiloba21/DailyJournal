@@ -181,11 +181,21 @@ header{
 .toggle_Button.active {
     display:flex;
     
-    margin-left:50%
+    margin-left:25%
+}
+ .toggle_Button.active ul li{
+    width: 100%;
+}
+    
+.toggle_Button{
+    display:none;
+   
+    padding-left: 70px;
+    padding-right: 3%;
 }
 
 
-.toggle_Button{display:none;width:100%}
+
 .social-links img{
     height:13px;
     margin:20px;
